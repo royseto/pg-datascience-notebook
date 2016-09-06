@@ -19,9 +19,9 @@ services:
      - "8888:8888"
     volumes:
      - /Users:/Users
-     - stl-jupyter:/home/jovyan/work
+     - jupyter-work:/home/jovyan/work
 
 volumes:
-  stl-jupyter:
+  jupyter-work:
     external: true
 ```
