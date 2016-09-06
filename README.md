@@ -15,6 +15,8 @@ version: '2'
 services:
   jupyter:
     image: royseto/pg-datascience-notebook
+    environment:
+        USE_HTTPS: "yes"
     ports:
      - "8888:8888"
     volumes:
